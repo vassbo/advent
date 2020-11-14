@@ -1,14 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En adventskalender med en sang og et bibelvers hver dag som peker på Jesus!">
+    <meta name="keywords" content="Adventskalender, Julekalender, Jul, Christmas, Jesus, Bibelvers, Julesanger">
+    <meta name="author" content="Kristoffer Vassbø">
     <title>Adventskalender</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 </head>
 <body>
+    <div class="snow-container">
+        <span class="snowflake"></span>
+    </div>
+    <!-- <div class="snow"></div> -->
+
+    <div id="doorsClone"></div>
+    <div id="doors"></div>
+
+    <div id="back" class="hidden" title="Gå tilbake">🡄</div>
+    <div id="day" class="hidden">
+        <div id="player"></div>
+        <!-- <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <p class="verse"></p>
+        <div class="candles hidden">candle</div>
+        <div class="jul hidden">
+            <h1 style="text-align:center;font-size:5em;color:red;text-shadow:-3px 3px 0px #fff;">GOD JUL!</h1>
+        </div>
+    </div>
+
+    <footer>
+        Adventskalender 2020 — av Kristoffer
+        <span class="hidden">&copy; 2020 Kristoffer Vassbø</span>
+    </footer>
     
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/doors.js"></script>
+    <script src="assets/js/snow.js"></script>
 </body>
 </html>
