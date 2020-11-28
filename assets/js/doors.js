@@ -83,7 +83,7 @@ function openDoor(day) {
         if (tag == undefined) createEmbed();
         else if (player.getVideoData()['video_id'] !== id) player.loadVideoById(id);
         else player.playVideo();
-    } else console.log('Bra forsøk!');
+    } // else console.log('Bra forsøk!');
 }
 
 

@@ -82,7 +82,7 @@ footer {
     position: fixed;
     bottom: 10px;
     color: rgba(255, 255, 255, 0.3);
-    font-size: 0.7em;
+    font-size: 12px;
     user-select: none;
     width: 100vw;
     text-align: center;
