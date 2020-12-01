@@ -90,15 +90,19 @@ footer {
 
 
 #back {
+    position: absolute;
+    top: 13px;
+    left: 10px;
+
     cursor: pointer;
-    font-size: 1.3em;
-    user-select: none;
+    fill: white;
+    /* padding-top: 3px; */
 }
 #back:hover {
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
 }
 #back:active {
-    color: rgba(255, 255, 255, 0.6);
+    fill: rgba(255, 255, 255, 0.6);
 }
 
 
@@ -269,13 +273,6 @@ footer {
     font-family: 'Caveat', cursive;
     font-size: 1.8em;
     padding: 15px 10vw;
-}
-
-#back {
-    color: white;
-    position: absolute;
-    top: 10px;
-    left: 10px;
 }
 
 
